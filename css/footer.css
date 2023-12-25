@@ -1,0 +1,37 @@
+.footer {
+  margin: 100px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer-menu img {
+  width: 88px;
+  height: 48px;
+}
+
+.footer-menu .nav-menu-item {
+  font-weight: 500;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer-social {
+  background-color: #281d52;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

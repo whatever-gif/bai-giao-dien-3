@@ -1,0 +1,32 @@
+* {
+  font-family: "Sarabun", sans-serif;
+  color: #281d52;
+}
+
+body {
+}
+
+.button {
+  background-color: #281d52;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  font-weight: 600;
+  min-width: 100px;
+  max-width: 120px;
+}
+
+.text-decor {
+  position: relative;
+  padding-left: 15px;
+}
+
+.text-decor::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  width: 5px;
+  height: 100%;
+  background-color: #281d52;
+}

@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.logo svg {
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-menu-item {
+  position: relative;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #281d52;
+}
+
+.nav-menu-item.active {
+  position: relative;
+  color: #c5ad3d;
+}
+
+.nav-menu-item.active::after {
+  position: absolute;
+  content: "";
+  background-color: #c5ad3d;
+  width: 100%;
+  height: 1.5px;
+  left: 0;
+  bottom: -5px;
+  border-radius: 5px;
+}
