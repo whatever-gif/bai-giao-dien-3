@@ -1,0 +1,56 @@
+.recent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.recent h3 {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.recent-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.recent-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.recent-item-avatar img {
+  width: 100%;
+}
+
+.recent-item-tag {
+  font-size: 16px;
+  font-weight: 600;
+  color: #8e83ba;
+}
+
+.recent-item-title {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.recent-item-more {
+  color: #00a2ff;
+  font-weight: 600;
+  position: relative;
+}
+
+.recent-item-more::after {
+  content: "";
+  position: absolute;
+  width: 75px;
+  height: 2px;
+  background-color: #00a2ff;
+  left: 0;
+  bottom: 0px;
+  border-radius: 5px;
+}
